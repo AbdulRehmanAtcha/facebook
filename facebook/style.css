@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Quicksand:wght@600&display=swap');
+body{
+    background-color: rgb(250, 248, 244);
+}
+.col-md-4 h2{
+    color: rgb(26, 91, 187);
+    font-size: 50px;
+}
+.text{
+    margin-top: 30px;
+}
+.text h2 ,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text h2{
+    padding-right: 80px;
+}
+.text p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+.box{
+    background-color: white;
+}
+.form-control{
+    margin-top: 10px;
+}
+.text2 p{
+    cursor: pointer;
+}
+.d-grid a{
+    color: aliceblue;
+}
+#acc{
+    color: aliceblue;
+}

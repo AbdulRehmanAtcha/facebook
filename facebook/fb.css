@@ -1,0 +1,158 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+    background-color: white;
+    /* justify-content: space-between; */
+}
+.header:hover{
+    cursor: pointer;
+}
+.header .input i{
+    margin-top: 15px;
+    position: relative;
+    left: 25px;
+}
+.header .input input{
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 35px;
+}
+.icons i{
+    padding-left: 90px;
+    margin-left: 5px;
+}
+.right img{
+    height: 30px;
+    width: 40px;
+}
+.right img,p{
+    display: inline-block;
+}
+.right p{
+    font-weight: bolder;
+}
+body{
+    background-color: rgb(227, 227, 238);
+    /* overflow: hidden; */
+    color: rgb(44, 45, 46);
+}
+.l-f img{
+    height: 30px;
+    width: 40px;
+}
+.l-s label{
+    position: relative;
+    bottom: 7px;
+    left: 10px;
+    font-size: 20px;
+}
+.l-t label{
+    position: relative;
+    bottom: 7px;
+    left: 10px;
+    font-size: 20px;
+}
+.l-fo img{
+    height: 30px;
+    width: 40px;
+}
+.l-fi label{
+    position: relative;
+    bottom: 7px;
+    left: 10px;
+    font-size: 20px;
+}
+.l-si label{
+    position: relative;
+    bottom: 7px;
+    left: 10px;
+    font-size: 20px;
+}
+.col-md-3 i,img:hover{
+    cursor: pointer;
+
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.story1 img{
+    height: 130px;
+    width: 80px;
+    border-radius: 5px;
+}
+.story2 img{
+    height: 130px;
+    width: 80px;
+    border-radius: 5px;
+}
+.story3 img{
+    height: 130px;
+    width: 80px;
+    border-radius: 5px;
+}
+.story4 img{
+    height: 130px;
+    width: 80px;
+    border-radius: 5px;
+}
+.story5 img{
+    height: 130px;
+    width: 80px;
+    border-radius: 5px;
+}
+.box1{
+    height: 150px;
+    background-color: white;
+    border-radius: 13px;
+}
+.box1 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.box1 img,input{
+    display: inline-block;
+
+}
+.box1 input{
+    width: 80%;
+    border: 01px solid rgb(189, 189, 189);
+    border-radius: 15px;
+    height: 40px;
+}
+.icons2{
+    text-align: center;
+}
+.icons2 label{
+    position: relative;
+    bottom: 5px;
+    font-size: 18px;
+}
+.box2{
+    display: flex;
+    height: 100px;
+    background-color: white ;
+    align-items: center;
+}
+.box3 img{
+    height: 300px;
+    width: 100%;
+}
+.r-h{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.r-b img{
+    height: 30px;
+    width: 40px;
+    border-radius: 100%;
+}
